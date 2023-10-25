@@ -7,17 +7,27 @@ Disciplines: Earth sciences, geoscience, environmental science
 
 ### How to use?
 
-The instruction is provided in the `Instructions.qmd` [Quarto](https://quarto.org/) file. This is an open source publishing format based on markdown. You can preview the file in `Instructions.md` file in the same repository. Quarto files can be rendered to any format: `docx`, `pdf`, `html`. To do this, clone the repository, open it in R Studio, set the following line to your preferred format, e.g.:
+The instruction is provided in the `Instructions.qmd` [Quarto](https://quarto.org/) file. This is an open source publishing format based on markdown. You can preview the file in `Instructions.md` file in the same repository. Quarto files can be rendered to any format: `docx`, `pdf`, `html`. 
+
+You can render the file in two ways. First, clone the repository.
+
+1. Open the file in R Studio, set the following line to your preferred format, e.g.:
 
 ```
 format: pdf
 ``` 
 And click `Render`.
 
+2. Change the line as above using any text editor and use Quarto CLI to render it:
+```
+quarto render
+```
+   
 The exercise can be completed in any reactive language that allows data manipulation: R, Python, Julia, etc. 
 
 Current TODO list:
-- Provide solutions for R and Python
+- Provide solutions for R (needs some cleaning)
+- Provide solutions for Python (neeeds writing from scratch)
 
 ### How to contribute
 
