@@ -6,8 +6,6 @@ format: gfm
 
 # Instructions for a practical in data analysis
 
-[![Dieter TD, first upload in de wikipedia on 13:31, 28. Apr 2005 by Dieter TD, CC BY-SA 3.0 \<http://creativecommons.org/licenses/by-sa/3.0/\>, via Wikimedia Commons](img/Feldmaus_Microtus_arvalis.jpg){fig-alt="Microtus arvalis sitting in grass"}](https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg)
-
 ## 1. Purpose
 
 Voles are rodents that are predominantly herbivorous and live in burrows. Vole populations can grow very large in a short time due to a high reproduction rate. Each species has a distinctive dentition (with prismatic hypsodont teeth) and is associated with a specific type of food and environment. Voles are widely used in the terrestrial fossil record to interpret paleoecology and paleoclimate, because their ecology makes them good environmental indicators:
@@ -17,6 +15,8 @@ Voles are rodents that are predominantly herbivorous and live in burrows. Vole p
 -   High preservation potential - as you already know, teeth are covered with a highly mineralized layer of enamel, which contains the mineral apatite. This makes teeth very resistant to chemical dissolution and mechanical fragmentation.
 -   High rates of morphological evolution - each species has different teeth
 -   Clear link between the morphology and diet (and thus vegetation available). By studying teeth alone we can tell what food was available in the animal's habitat.
+
+[![Dieter TD, first upload in de wikipedia on 13:31, 28. Apr 2005 by Dieter TD, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons](img/Feldmaus_Microtus_arvalis.jpg){fig-alt="Microtus arvalis sitting in grass"}](https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg)
 
 This practical consists of two parts:
 
