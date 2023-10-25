@@ -4,16 +4,6 @@ Emilia Jarochowska & Wilma Wessels (Utrecht University)
 
 # Instructions for a practical in data analysis
 
-<div fig-alt="Microtus arvalis sitting in grass">
-
-[![](img/Feldmaus_Microtus_arvalis.jpg)](https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg)
-
-Dieter TD, first upload in de wikipedia on 13:31, 28. Apr 2005 by Dieter
-TD, CC BY-SA 3.0 \<http://creativecommons.org/licenses/by-sa/3.0/\>, via
-Wikimedia Commons
-
-</div>
-
 ## 1. Purpose
 
 Voles are rodents that are predominantly herbivorous and live in
@@ -39,6 +29,16 @@ makes them good environmental indicators:
 - Clear link between the morphology and diet (and thus vegetation
   available). By studying teeth alone we can tell what food was
   available in the animal’s habitat.
+
+<div fig-alt="Microtus arvalis sitting in grass">
+
+[![](img/Feldmaus_Microtus_arvalis.jpg)](https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg)
+
+Dieter TD, first upload in de wikipedia on 13:31, 28. Apr 2005 by Dieter
+TD, CC BY-SA 3.0 \<http://creativecommons.org/licenses/by-sa/3.0/\>, via
+Wikimedia Commons
+
+</div>
 
 This practical consists of two parts:
 
