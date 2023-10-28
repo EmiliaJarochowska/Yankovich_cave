@@ -1,3 +1,10 @@
+# Large binary datasets
+*.nc
+solution/data/*.nc
+solution/data/Matlab_script.m
+solution/data/Python_script.py
+solution/data/R_script.R
+
 *.Rproj
 
 # History files
