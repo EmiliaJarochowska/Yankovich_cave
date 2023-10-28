@@ -47,12 +47,18 @@ Under the following terms:
 - NonCommercial - You may not use the material for commercial purposes.
 - ShareAlike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
 
-### Author
+### Authors
 __Emilia Jarochowska__  
 Utrecht University  
 email: e.b.jarochowska [at] uu.nl  
 Web page: [www.uu.nl/staff/EBJarochowska](https://www.uu.nl/staff/EBJarochowska)  
 ORCID: [0000-0001-8937-9405](https://orcid.org/0000-0001-8937-9405)
+
+__Wilma Wessels__
+Utrecht University  
+email: w.wessels [at] uu.nl    
+Web page: [https://www.uu.nl/staff/WWessels](https://www.uu.nl/staff/WWessels)   
+ORCID: [0000-0001-9027-9698](https://orcid.org/0000-0001-9027-9698)
 
 ### Copyright
 Copyright 2023 Utrecht University
