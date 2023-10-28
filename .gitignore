@@ -1,9 +1,9 @@
 # Large binary datasets
 *.nc
-solution/data/*.nc
-solution/data/Matlab_script.m
-solution/data/Python_script.py
-solution/data/R_script.R
+solutions/data/*.nc
+solutions/data/Matlab_script.m
+solutions/data/Python_script.py
+solutions/data/R_script.R
 
 *.Rproj
 
