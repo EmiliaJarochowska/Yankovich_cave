@@ -158,9 +158,6 @@ maps you generate: look at the area chart and see when big climatic
 changes should happen: are they reflected in the map of biomes in
 Europe?
 
-Write a short commentary, referring to the figures you produced. It may
-be wise to number the figures.
-
 ## 5. References
 
 Beyer, R.M., Krapp, M. & Manica, A. (2020) High-resolution terrestrial
@@ -173,12 +170,19 @@ Geophys. Res., 108, 8171, doi:10.1029/2002JD002559, D19.
 
 Kretzoi M. (1957) Folia Archaeologica, 9, pp. 16 - 21
 
-## 6. Evaluation
+## 6. Final report
 
 Hand in an document as recommended by the teacher (e.g. Jupyter
 notebook, Pluto notebook, R Markdown etc.). Write a report text as you
 would for any analysis, but include the code corresponding to the steps
 you’ve taken in the analysis and the output.
+
+Address the following topics: What is the difference between a biotope
+and a biome and how does this affect the comparison between the two
+methods? What are the limitations of both ways of reconstructing
+palaeoclimate? Are there any limitations of the nearest living relative
+principle? What in the nature of the geological record, and specifically
+in caves, could bias this analysis?
 
 Use formatting to split your document into chapters, pay attention to
 the spelling, especially to the use of taxon names. You don’t have to
