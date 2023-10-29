@@ -10,6 +10,7 @@ Disciplines: Earth sciences, geoscience, environmental science
 
 -   `Instructions.md` - Instructions file which you can preview directly on GitHub
 -   `Instructions.qmd` - Markup file used to generate `Instructions.md`, can be rendered to other formats (see below)
+-   `Rubric.qmd` and `Rubric.md` - example grading rubric (source and output, respectively)
 -   `data` - Files needed to complete the exercise
 -   `solutions` - Example solutions and data needed to generate them
     -   `solutions/R_solution.md` - Example solution in R
