@@ -46,6 +46,7 @@ After finishing this practical, you should be able to:
 
 ### 3.1. Vole assemblages
 
+
 `Table2.csv` contains the relative frequencies of voles in the Yankovich cave. To make the findings comparable, first lower molars were counted, so e.g. if one individual left multiple teeth preserved, we wouldn't count it twice. You will use this data to construct an area chart. On the horizontal axis should be the layer and on the vertical axis should be the relative proportion of each species in the assemblage. After you made this plot, make a second version of it, but this time with the absolute age on the horizontal axis. You might encounter problems resulting from the fact that some layers are so close to each other that they have been dated as the same age. Based on your geological knowledge so far, can you think of why this could happen? Having two assemblages with the same age will make the plot hard to read. You can modify the age slightly so that the two samples are plotting close together, but not one on top of the other. 
 
 **Alternative version**: A table with absolute counts (`data/Table2_abs.csv`) has been also generated. It can be used to ask students to generate relative counts themselves.
