@@ -30,15 +30,9 @@ makes them good environmental indicators:
   available). By studying teeth alone we can tell what food was
   available in the animal’s habitat.
 
-<div fig-alt="Microtus arvalis sitting in grass">
-
-[![](img/Feldmaus_Microtus_arvalis.jpg)](https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg)
-
-Dieter TD, first upload in de wikipedia on 13:31, 28. Apr 2005 by Dieter
-TD, CC BY-SA 3.0 \<http://creativecommons.org/licenses/by-sa/3.0/\>, via
-Wikimedia Commons
-
-</div>
+[<img src="img/Feldmaus_Microtus_arvalis.jpg"
+data-fig-alt="Microtus arvalis sitting in grass"
+alt="Dieter TD, first upload in de wikipedia on 13:31, 28. Apr 2005 by Dieter TD, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" />](https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg)
 
 This practical consists of two parts:
 
@@ -189,14 +183,9 @@ information from it in
 and
 [Python](https://figshare.com/articles/dataset/LateQuaternary_Environment_nc/12293345/4?file=22659938).
 
-<div fig-alt="Comparison between modelled mid-Holocene and Last Glacial Maximum temperature, precipitation and vegetation (maps), and pollen-based empirical reconstructions (markers; uncertainties not shown). For visualisation purposes, empirical biomes were aggregated to a 2° grid, and the set of 27 simulated biomes was grouped into 9 megabiomes.">
-
-[![](img/41597_2020_552_Fig2_HTML.webp)](https://doi.org/10.1038/s41597-020-0552-1)
-
-This file is distributed under the Creative Commons Attribution 4.0
-International License: http://creativecommons.org/licenses/by/4.0/
-
-</div>
+[<img src="img/41597_2020_552_Fig2_HTML.webp"
+data-fig-alt="Comparison between modelled mid-Holocene and Last Glacial Maximum temperature, precipitation and vegetation (maps), and pollen-based empirical reconstructions (markers; uncertainties not shown). For visualisation purposes, empirical biomes were aggregated to a 2° grid, and the set of 27 simulated biomes was grouped into 9 megabiomes."
+alt="This file is distributed under the Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0/" />](https://doi.org/10.1038/s41597-020-0552-1)
 
 Your tasks are to: 1. Download the data and the code for the language
 you are using for this assignment. 2. Install the packages required to

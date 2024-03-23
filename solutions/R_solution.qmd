@@ -296,7 +296,8 @@ py_install("datahugger")
 dh <- import("datahugger")
 ```
 
-```{r}
+```{r, eval=FALSE}
+# Set eval = TRUE to download the dataset, it is 1.24 GB
 dh_data <- dh$get("https://doi.org/10.6084/m9.figshare.12293345.v4", "data")
 ```
 

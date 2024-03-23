@@ -58,6 +58,10 @@ ggplot(T2_long, aes(x=Layer, y=value, fill=variable)) +
   ggtitle("Proportion of first lower molars of voles (Arvicolinae) at Yankovich Cave")
 ```
 
+    Warning: The `legend.text.align` argument of `theme()` is deprecated as of ggplot2
+    3.5.0.
+    ℹ Please use theme(legend.text = element_text(hjust)) instead.
+
 ![](R_solution_files/figure-commonmark/plot%20by%20layer%20of%20Table%202-1.png)
 
 The same plot but with age on the horizontal axis:
@@ -202,7 +206,7 @@ ggplot2::ggplot(df4, aes(x=Layer, y=value, fill=variable)) +
   ggtitle("Proportion of first lower molars of non-vole vertebrates at Yankovich Cave")
 ```
 
-![](R_solution_files/figure-commonmark/plot%20by%20layer%20of%20Table%204-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-12-1.png)
 
 We again re-plot with ages instead of layer numbers:
 
@@ -229,7 +233,7 @@ ggplot2::ggplot(df4, aes(x=Age2, y=value, fill=variable)) +
   ggtitle("Proportion of first lower molars of non-vole vertebrates at Yankovich Cave")
 ```
 
-![](R_solution_files/figure-commonmark/plot%20by%20age%20of%20Table%204-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-14-1.png)
 
 The students need to create a version of Table 4 with biotopes instead
 of taxa. Here is importing the file I created:
@@ -257,7 +261,7 @@ ggplot2::ggplot(df4h, aes(x=Layer, y=value, fill=variable)) +
   scale_fill_brewer(palette="Spectral")
 ```
 
-![](R_solution_files/figure-commonmark/unnamed-chunk-14-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-16-1.png)
 
 And, again, the same for ages:
 
@@ -279,7 +283,7 @@ ggplot2::ggplot(df4h, aes(x=Age2, y=value, fill=variable)) +
   scale_fill_brewer(palette="Spectral")
 ```
 
-![](R_solution_files/figure-commonmark/unnamed-chunk-16-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-18-1.png)
 
 You can see a rounding error as some layers have the total different
 from 100% but we can ignore that.
@@ -302,20 +306,15 @@ called from R, but requires Python to be installed on the computer.
 Downloading the `LateQuaternary_Environment.nc` file may take a while,
 it is 1.24 GB.
 
-```` markdown
-```{r}
-#| output: false
+``` r
 library(reticulate)
 py_install("datahugger")
 dh <- import("datahugger")
 ```
-````
 
-```` markdown
-```{r}
+``` r
 dh_data <- dh$get("https://doi.org/10.6084/m9.figshare.12293345.v4", "data")
 ```
-````
 
 After this the climate model file will be in the `/data` folder, as well
 as the R script. We could `source` this file or [parts of
@@ -349,7 +348,7 @@ p1 <- print(lattice::levelplot(biome[,,years == my_year],
                                col.regions=rainbow(28)))
 ```
 
-![](R_solution_files/figure-commonmark/unnamed-chunk-19-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-23-1.png)
 
 This plot was for the entire world, but we may want to focus on Europe
 and have a closer look:
@@ -360,7 +359,7 @@ p1 <- print(lattice::levelplot(biome[,,years == my_year][320:550,150:300],
                                col.regions=rainbow(28)))
 ```
 
-![](R_solution_files/figure-commonmark/unnamed-chunk-20-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-24-1.png)
 
 These colors are a bit toxic, but give high contrast. If you want to
 change the palette, you can try substituting `rainbow(28)` with
@@ -373,7 +372,7 @@ p1 <- print(lattice::levelplot(biome[,,years == my_year][320:550,150:300],
                                col.regions=topo.colors(28)))
 ```
 
-![](R_solution_files/figure-commonmark/unnamed-chunk-21-1.png)
+![](R_solution_files/figure-commonmark/unnamed-chunk-25-1.png)
 
 But the biome scale is in numbers, not names! What now? Biomes are
 standardized in this widely used model, so each number has a fixed
